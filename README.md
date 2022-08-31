@@ -10,6 +10,13 @@ The larix_allometry.R script includes:
 - determination of the weightings used in nonlinear regressions following Picard et al. (2012)
 - development of site-specific allometric equations derived using nonlinear regressions (weighted least squares method) (including Table 5, Table B1)
 
+## Workflow
+
+1. Development of allometric equations (larix_allometry.R)
+2. Figures
+  - code for Figures B1 and B2 (FiguresB1_B2.R)
+  - code for Figures 4 and C1 (Figures4_C1.py)
+
 Please note that this code was not written by a professional software developer, so it may not be written in the most efficient way possible. Feel free to contact us if you have any comments, suggestions or questions regarding the code, data or the analysis in general.
 
 ## References

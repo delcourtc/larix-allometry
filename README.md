@@ -16,6 +16,23 @@ The larix_allometry.R script includes:
 2. Figures
   - code for Figures B1 and B2 (FiguresB1_B2.R)
   - code for Figures 4 and C1 (Figures4_C1.py)
+  
+## Data requirements
+  - Biomass measurements from Schepaschenko et al. (2017) (Biomass_tree_DB.xlsx)
+  
+## Software requirements
+
+R code tested with R 4.0.3, required packages:
+  - openxlsx 4.2.3
+  - tidyverse 1.3.0
+  - ggpubr 0.4.0
+  - broom 0.7.5
+  - car 3.0-10
+  
+Python code tested with Anaconda Python 3.8.5, required packages:
+  - pandas 1.2.1
+  - numpy 1.19.2
+  - matplotlib 3.3.2
 
 Please note that this code was not written by a professional software developer, so it may not be written in the most efficient way possible. Feel free to contact us if you have any comments, suggestions or questions regarding the code, data or the analysis in general.
 

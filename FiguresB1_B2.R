@@ -23,7 +23,7 @@ panels <- c("(a)", "(b)", "(c)", "(d)", "(e)", "(f)")
 
 for(i in seq(2)){
   
-  png(paste0(wdir,paste0("Figures/FigureB",paste0(as.character(i), ".png"))),
+  png(paste0(wdir,paste0("Figures/figureB",paste0(as.character(i), ".png"))),
       units = "cm", width = 15.7, height = 19.6, res = 300)
   par(mfrow = c(3,2), mgp = c(1.5,0.2,0), mar = c(3, 3.4, 1.5, 1),
       tck = 0.015, ps = 7)

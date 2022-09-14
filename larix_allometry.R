@@ -278,7 +278,7 @@ df_r2 <- df_r2 %>%
                                                  ifelse(UY.p.values < 0.001, "***", NA)))))
 
 write.csv(mutate_if(df_r2, is.numeric, ~ round(.,3)),
-          paste0(wdir,"outputs/table_C2_ols_rsquared.csv"))
+          paste0(wdir,"outputs/tableC2_ols_rsquared.csv"))
 
 ## nonlinear regression (weigthed least squares method)
 

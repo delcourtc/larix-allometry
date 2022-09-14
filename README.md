@@ -1,6 +1,8 @@
 # Allometric equations and woody debris parameters for estimating aboveground biomass in Cajander larch forests of northeast Siberia
 Python and R codes for the development of new allometric equations for *Larix cajanderi* trees in northeast Siberia
 
+[![DOI](https://zenodo.org/badge/531168048.svg)](https://zenodo.org/badge/latestdoi/531168048)
+
 This code uses tree biomass and size data retrieved from a comprehensive dataset of biomass measurements in Eurasia (Schepaschenko et al., 2017). The original excel file can be downloaded on https://doi.org/10.1594/PANGAEA.871491. We selected raw harvest data from *Larix cajanderi* stands sampled as part of two experiments conducted in the Magadan Oblast (MG) and the Ust-Yansky district (UY) (Republic of Sakha), Russia. These data were used to develop allometric equations relating tree diameter at breast height (DBH) to stem, stem wood, stem bark, branches, foliage, and total aboveground tree biomass.
 
 To illustrate differences between our newly developed allometric relationships and existing biomass equations for *L. cajanderi*, we calculated aboveground tree biomass at 53 forest stands sampled near Yakutsk (Russia) using each allometric model. Field measurements collected within these stands are freely available from https://doi.org/10.5281/zenodo.7049450. This dataset was also used to determine density and size parameters for fine woody debris (FWD, < 7 cm in diameter) of *L. cajanderi* that can be used to calculate FWD biomass using the line-intersect method (Van Wagner, 1982; Nalder et al., 1999). The allometric equations and FWD parameters presented in our study can be used to refine estimates of aboveground biomass in Cajander larch forests of northeast Siberia.

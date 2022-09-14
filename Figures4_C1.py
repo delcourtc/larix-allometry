@@ -3,7 +3,7 @@
 @author: C. J. F. Delcourt
 """
 
-#%% Importing required packages
+#%% importing required packages
 import os
 import numpy as np
 import pandas as pd
@@ -16,7 +16,7 @@ from matplotlib.lines import Line2D
 ## larix_allometry.R script were saved 
 wdir = ""
 
-#%% Data preparation for plotting Figure C1
+#%% data preparation for plotting Figure C1
 
 ## importing outputs from the larix_allometry.R script
 # linear regression coefficients
@@ -46,7 +46,7 @@ wls_dict = {"MG": {"a": wls.iloc[:6,5].to_list(),
                    "rmse": wls.iloc[6:,9].to_list(),
                    "c": cvals["UY.c"].to_list()}}
 
-#%% Plotting Figure C1
+#%% plotting Figure C1
 
 # site-specific allometry models for Larix cajanderi developed using linear
 # regressions (OLS) and weighted nonlinear regressions (WLS).
@@ -183,7 +183,7 @@ fig.savefig(wdir+'Figures/figureC1.png')
 del ax, axs, custom_lines, fig, figlabels, figlgd_labels, cm, ylabels
 del i, lgd2, lgd_labels, lgd_lines, x, y1, y2, y3, y4, ylims, yfiles
 
-#%% Importing confidence intervals predictions from the larix_allometry.R script
+#%% importing confidence intervals predictions from the larix_allometry.R script
 
 ## setting the directory in which the confidence intervals were saved
 os.chdir(wdir+'/Figures/Figure4_CIs/')
@@ -197,7 +197,7 @@ for ref in cis_dict.keys():
         cis_dict[ref].append(df)
 del(df, file, ref)
 
-#%% Existing allometric models for Larix cajanderi in northeast Siberia
+#%% existing allometric models for Larix cajanderi in northeast Siberia
 
 # for allometric relationships developed in Chersky (CK) and Oymyakon (OM)
 # areas, regression coefficients can be found in Kajimoto et al. (2006)
@@ -213,7 +213,7 @@ lrx_allo = {"alexander_CK": {"a": [0.08142,0.06966,0.0405,0.1792],
 ## comparisons with existing biomass equations
 tree_db = tree_db[['Pst', 'Pbr', 'Pf', 'Pabo', 'DBH', 'Location']]
 
-#%% Plotting Figure 4 (1)
+#%% plotting Figure 4
 
 plt.rcParams["font.family"] = "Arial"
 plt.rcParams['figure.dpi'] = 300
